@@ -10,25 +10,25 @@
 </head>
 <body>
   <div class="mainApp">
-    <div class="heading">
+    <header class="heading">
       <h3>Password Generator</h3>
-    </div>
-    <div class="passwordGen">
+    </header>
+    <section class="passwordGen">
       <div class="passGen">
         <input type="text" name="password" id="passGenerator">
         <img src="./assets/images/icon-copy.svg" alt="" class ="copyIcon">
       </div>
-    </div>
-    <div class="bodyApp">
-      <div class="rangeIndex">
+    </section>
+    <section class="bodyApp">
+      <fieldset class="rangeIndex">
         <div class="subIndex">
           <div class="text"><label for="strength">Character Strength</label></div>
           <div class="displayNum"><p><output id="strengthCalc"></output></p></div>
         </div>
         <input type="range" name="strength" min="0" max="20" step="1" id="strength">
-      </div>
+      </fieldset>
       <br>
-      <div class="checkBoxes">
+      <fieldset class="checkBoxes">
         <br>
         <input type="checkbox" name="" id="upperCase">
         <label for="upperCase">Include Uppercase Letters</label>
@@ -42,8 +42,8 @@
         <input type="checkbox" name="" id="symbols">
         <label for="symbols">Include Symbols</label>
         <br>
-      </div>
-      <div class="strengthState">
+      </fieldset>
+      <fieldset class="strengthState">
         <div class="text"><label>STRENGTH</label></div>
         <div class="animation">
           <p id="animationColors">
@@ -53,18 +53,18 @@
             <i class="fa-regular fa-square"></i>
           </p>
         </div>
-      </div>
-      <div>
+      </fieldset>
+      <section>
         <button class="generateButton" onclick="generatePassword()">Generate Password 
           <span><img src="./assets/images/icon-arrow-right.svg" alt=""> </span>
         </button>
-      </div>
-    </div>
+      </section>
+    </section>
   </div>
 
   <script src="./app.js"></script>
 </body>
-<footer>
-  Designed by Pavan
-</footer>
+  <footer>
+    Designed by Pavan
+  </footer>
 </html>
