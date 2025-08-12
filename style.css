@@ -36,6 +36,7 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+    border: none;
 }
 
 .subIndex {
@@ -45,6 +46,10 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
+}
+
+.checkBoxes {
+    border: none;
 }
 
 label {
@@ -61,6 +66,7 @@ input[type="checkbox"] {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border: none;
 }
 
 .passGen {
